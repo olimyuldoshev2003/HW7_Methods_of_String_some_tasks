@@ -201,15 +201,15 @@
 
 //Task 18
 
-function removeABC(wordOrCentense) {
-    let Null;
-    for(let i = 0; i < wordOrCentense.length; i++) {
-        if(wordOrCentense.at(i) === "a" || wordOrCentense.at(i) === "b" || wordOrCentense.at(i) === "c" || wordOrCentense.at(i) === "A" || wordOrCentense.at(i) === "B" || wordOrCentense.at(i) === "C") {
-            wordOrCentense = wordOrCentense.replace()
-        }
-    }
-    return wordOrCentense;
-}
+// function removeABC(wordOrCentense) {
+//     let Null;
+//     for(let i = 0; i < wordOrCentense.length; i++) {
+//         if(wordOrCentense.at(i) === "a" || wordOrCentense.at(i) === "b" || wordOrCentense.at(i) === "c" || wordOrCentense.at(i) === "A" || wordOrCentense.at(i) === "B" || wordOrCentense.at(i) === "C") {
+//             wordOrCentense = wordOrCentense.replace()
+//         }
+//     }
+//     return wordOrCentense;
+// }
 
-console.log(removeABC("This might be a bit hard"));
-console.log(removeABC("hello world!"));
+// console.log(removeABC("This might be a bit hard"));
+// console.log(removeABC("hello world!"));
