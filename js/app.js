@@ -1,4 +1,4 @@
-//Task 1
+// Task 1
 // function modifyLast(word, timesOfRepeat) {
 //   let newWord = word,modulOfWord,
 //     lastWord;
@@ -12,7 +12,7 @@
 // console.log(modifyLast("Hello", 10));
 // console.log(modifyLast("Hey", 2));
 
-//Task 2
+// Task 2
 // function firstLast(str) {
 //     let firstWord, lastWord;
 //     for(let i = 0; i < str.length; i++) {
@@ -25,14 +25,14 @@
 // console.log(firstLast("shiva"));
 // console.log(firstLast("ganesh"));
 
-//Task 3.1
+// Task 3.1
 // function toInt(str) {
 //     return Number(str);
 // }
 
 // console.log(toInt("10100111"));
 
-//Task 3.2
+// Task 3.2
 
 // function toStr(num) {
 //     return num.toString();
@@ -40,7 +40,7 @@
 
 // console.log(toStr(10101));
 
-//Task 4
+// Task 4
 
 // function isPlural(word) {
 //     for(let i = 0; i < word.length; i++) {
@@ -54,7 +54,7 @@
 
 // console.log(isPlural("repositories"));
 
-//Task 5
+// Task 5
 // function reverseCapitalize(str) {
 //     return str.split("").reverse().join("").toUpperCase();
 // }
@@ -62,7 +62,7 @@
 // console.log(reverseCapitalize("abc"));
 // console.log(reverseCapitalize("hellothere"));
 
-//Task 6 This task is undefined.
+// Task 6 This task is undefined.
 
 // function checkEnding(str1, str2) {
 //     return `${str2} ${str1}`
@@ -70,7 +70,7 @@
 
 // console.log(checkEnding("abc", "c"));
 
-//Task 7
+// Task 7
 // function checkPalindrome(str) {
 //     let counter = 0;
 //     for(let i = 1; i <= str.length; i++) {
@@ -85,7 +85,7 @@
 // console.log(checkPalindrome("scary"));
 // console.log(checkPalindrome("reviver"));
 
-//Task 8
+// Task 8
 // function charCount(lookingForWord, word) {
 //   let counter = 0;
 //   for(let i = 0; i < word.length; i++) {
@@ -101,7 +101,7 @@
 // console.log(charCount("c", "Chamber of secrets"));
 // console.log(charCount("b", "big fat bubble"));
 
-//Task 9
+// Task 9
 
 // function capToFront(str) {
 //     let uppercaseWord = "";
@@ -120,7 +120,7 @@
 // console.log(capToFront("moveMENT"));
 // console.log(capToFront("shOrtCAKE"));
 
-//Task 10
+// Task 10
 
 // function reverseAndNot(num) {
 //     let convertToStr = num.toString().split("").reverse().join("")
@@ -131,7 +131,7 @@
 // console.log(reverseAndNot(152));
 // console.log(reverseAndNot(123456789));
 
-//Task 11.1.
+// Task 11.1.
 
 // function giveMeSomething(centenseOrWord) {
 //     let newWord = "something "
@@ -143,7 +143,7 @@
 // console.log(giveMeSomething("Bob Jane"));
 // console.log(giveMeSomething("something"));
 
-//Task 11.2.
+// Task 11.2.
 
 // function boolToString(boolean) {
 //     return boolean? `"true"` : `"false"`;
@@ -152,7 +152,7 @@
 // console.log(boolToString(true));
 // console.log(boolToString(false));
 
-//Task 15
+// Task 15
 
 // function stringInt(str) {
 //     return Number(str);
@@ -162,7 +162,7 @@
 // console.log(stringInt("1000"));
 // console.log(stringInt("12"));
 
-//Task 16
+// Task 16
 
 // function greeting(myLove) {
 //     if(myLove === `Mubashir`) return `Hello, my love`;
@@ -172,7 +172,7 @@
 // console.log(greeting("Mubashir"));
 // console.log(greeting("Matt"));
 
-//Task 17.1.
+// Task 17.1.
 
 // function comp(str1, str2) {
 //     if(str1.length === str2.length) {
@@ -184,14 +184,14 @@
 
 // console.log(comp("AB", "CD"));
 
-//Task 17.2.
+// Task 17.2.
 
 // function replaceVowel(str) {
-//     str = str.replace("a", 1)    
-//     str = str.replace("e", 2)    
-//     str = str.replace("i", 3)    
-//     str = str.replace("o", 4)    
-//     str = str.replace("u", 5)    
+//     str = str.replace("a", 1)
+//     str = str.replace("e", 2)
+//     str = str.replace("i", 3)
+//     str = str.replace("o", 4)
+//     str = str.replace("u", 5)
 //     return str;
 // }
 
@@ -199,17 +199,16 @@
 // console.log(replaceVowel("chembur"));
 // console.log(replaceVowel("khandbari"));
 
-//Task 18
+// Task 18
 
 // function removeABC(wordOrCentense) {
-//     let Null;
-//     for(let i = 0; i < wordOrCentense.length; i++) {
-//         if(wordOrCentense.at(i) === "a" || wordOrCentense.at(i) === "b" || wordOrCentense.at(i) === "c" || wordOrCentense.at(i) === "A" || wordOrCentense.at(i) === "B" || wordOrCentense.at(i) === "C") {
-//             wordOrCentense = wordOrCentense.replace()
-//         }
-//     }
-//     return wordOrCentense;
+//   if (!/[abc]/.test(wordOrCentense)) {
+//     return null;
+//   }
+//   return wordOrCentense.replace(/[abc]/g, "");
 // }
 
 // console.log(removeABC("This might be a bit hard"));
 // console.log(removeABC("hello world!"));
+// console.log(removeABC(""));
+
